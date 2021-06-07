@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: #dbc3a3;
+    padding: 20px;
+    font-family: Arial;
+}  
+  
+.container{
+    width: 96%;
+    margin: 20px auto;
+}
+.book{
+    width: 19%;
+    float: left;
+    background:rgba(255, 255, 255, 0.5);
+    margin: 5px;
+    padding: 10px;
+}
+
+button{
+    color: #fff;
+    background: #2F4F4F;
+    width: 65%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background: #ADD;
+    transition: 0.3S ease;
+}
